@@ -9,7 +9,7 @@ resource "okta_group" "GSD" {
 }
 
 resource "okta_group" "legal" {
-  name        = "Legal"
+  name        = "legal"
   description = "group for the legal department. Managed by Terraform"
 }
 
