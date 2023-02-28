@@ -5,7 +5,7 @@ terraform {
       version = "~> 3.37"
     }
   }
-  backend "remote" {
+  cloud {
 	organization = "tavernlabs" # org name
 	workspaces {
 		name = "terraform-okta" # name for your app's state
