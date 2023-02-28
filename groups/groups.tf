@@ -12,3 +12,8 @@ resource "okta_group" "legal" {
   name        = "Legal"
   description = "group for the legal department"
 }
+
+resource "okta_group" "infra" {
+  name        = "Infra"
+  description = "group for the Infra department. Managed by Terraform"
+}
