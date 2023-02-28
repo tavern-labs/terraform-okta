@@ -1,5 +1,5 @@
 resource "okta_group" "marketing" {
-  name        = "Markeing"
+  name        = "Marketing"
   description = "group for the marketing department"
 }
 
